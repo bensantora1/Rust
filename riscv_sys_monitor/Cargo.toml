@@ -1,5 +1,5 @@
 [package]
-name = "riscv_sysmon"
+name = "riscv_sys_monitor"
 version = "0.1.0"
 authors = ["Ben Santora"]
 edition = "2021"
