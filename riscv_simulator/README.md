@@ -85,5 +85,5 @@ This project is licensed under the MIT License. See LICENSE for details.
 
 ### Author
 Ben Santora - Cape Ann MA
-* If my contribution has helped you with your project, please consider starring the repo at: https://github.com/bensantora1/riscv_simulator
+* If my contributions have helped you with your project, please consider starring my repos at: https://github.com/bensantora1/Rust
 
