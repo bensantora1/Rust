@@ -1,0 +1,19 @@
+[package]
+name = "riscv_sysmon"
+version = "0.1.0"
+authors = ["Ben Santora"]
+edition = "2021"
+description = " A system monitor for RISC-V SBCs on Linux"
+license = "MIT"
+repository = "https://github.com/bensantora1/Rust"
+
+[dependencies]
+sysinfo = "0.29" # Adjust version to the latest if needed
+chrono = "0.4"
+structopt = "0.3"
+
+[dev-dependencies]
+# Include if you need additional libraries for testing or development
+
+[features]
+# Add any feature flags for conditional compilation, if applicable
