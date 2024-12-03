@@ -40,15 +40,18 @@ Integration (main.rs)
 Functionality:
 
 Parses and executes instructions step-by-step.
+
 Manages interactions between the CPU, Memory, and Cache modules.
+
 Suggested Enhancements
 Interactive Debugging Mode: Allow users to step through instructions, observing the CPU and memory state after each step.
 Logging and Metrics: Track execution statistics such as instruction count and cache hit/miss rates.
 Error Handling: Improve error handling for invalid instructions and memory addresses.
 Unit Tests: Add test cases to validate functionality of all modules.
+
 Example Enhancements
 Debugging Utilities:
-rust
+```rust
 Copy code
 impl Cpu {
     pub fn dump_registers(&self) {
@@ -60,9 +63,9 @@ impl Cpu {
         println!("Program Counter: {}", self.pc);
     }
 }
+```
 Interactive Execution:
-rust
-Copy code
+```rust
 for instr in instructions {
     println!("Executing: {}", instr.to_string());
     execute_instruction(&mut cpu, &mut memory, &mut cache, &instr);
@@ -71,4 +74,5 @@ for instr in instructions {
     println!("Press Enter to continue...");
     let _ = std::io::stdin().read_line(&mut String::new());
 }
+```
 This modular and extensible design is ideal for simulating RISC-V assembly programs while offering plenty of room for enhancements.
