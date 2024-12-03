@@ -38,4 +38,4 @@ riscv_sysmon --interval 2
 This project is licensed under the MIT License
 
 ## Author
-bensatlantik
+bensantora1
