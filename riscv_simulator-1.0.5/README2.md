@@ -76,3 +76,6 @@ for instr in instructions {
 }
 ```
 This modular and extensible design is ideal for simulating RISC-V assembly programs while offering plenty of room for enhancements.
+
+### Author
+Ben Santora
