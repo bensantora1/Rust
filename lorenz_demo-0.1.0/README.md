@@ -25,4 +25,4 @@ The plot will be saved as lorenz.png in the project directory.
 This project is licensed under the MIT License
 
 ## Author
-bensatlantik
+bensantora1
