@@ -49,4 +49,4 @@ Contributions from anyone interested in improving this library are welcome. Feel
 This project is licensed under the MIT License.
 
 ## Author
-bensatlantik
+bensantora1
