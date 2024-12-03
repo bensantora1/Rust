@@ -32,4 +32,4 @@ The output might appear differently depending on your terminal's behavior with c
 This project is licensed under the MIT License
 
 ## Author
-bensatlantik
+bensantora1
