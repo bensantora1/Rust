@@ -12,8 +12,8 @@
 [package]
 edition = "2018"
 name = "riscv_perf"
-version = "0.1.1"
-authors = ["Ben Santora <bensatlantik@gmail.com>"]
+version = "0.1.2"
+authors = ["Ben Santora"]
 build = false
 autobins = false
 autoexamples = false
